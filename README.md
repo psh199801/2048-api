@@ -55,7 +55,7 @@ class myAgent(Agent):
 
 # 如何运行代码
 * 代码的基本结构如上，具体代码在文件夹下的myAgent.py中
-* 需要运行的model在百度云链接： https://pan.baidu.com/s/1i8F4H4Te1Ai3x4Te7_YZnA     ，下载后放到2048-api文件夹下即可。myAgent_256.h5对应0-512，myAgent_512.h5对应512-1024，myAgent_1024.h5对应1024-2048
+* 需要运行的model在百度云链接： https://pan.baidu.com/s/1i8F4H4Te1Ai3x4Te7_YZnA     ，下载后将三个文件放到2048-api文件夹下即可。myAgent_256.h5对应0-512，myAgent_512.h5对应512-1024，myAgent_1024.h5对应1024-2048
 * 以下是其他部分各个代码的运行
 	* python generateDataSet.py  将三个模型训练的数据保存到文档中。
 	* python myAgent_train.py  选择上一个函数中产生的三个数据集之一来分别完成三个不同的分层模型。
