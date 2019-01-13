@@ -32,7 +32,14 @@ class YourOwnAgent(Agent):
         return direction
 
 ```
-
+# ????
+* ??
+* Python 3 (Anaconda 3.6.3 specifically) with numpy and flask
+```bash
+cd game2048/expectimax
+bash configure
+make
+```
 # To compile the pre-defined ExpectiMax agent
 
 ```bash
